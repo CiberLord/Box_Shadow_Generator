@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="row jc-center">
+                <h1>BOX-SHADOW GENERATE</h1>
+            </div>
+            <div class="row jc-between">
+                <div class="col setup">
+                    <h2>Настройки</h2>
+                    <div class="setup__inner">
+                        <div class="inset">
+                            <p>внутрь блока?</p>
+                            <button></button>
+                        </div>
+                        <p class="setup__text">свдиг по оси Х</p>
+                        <div id="posx" class="scroll-box"></div>
+                        <p class="setup__text">сдвиг по оси Y</p>
+                        <div id="posy" class="scroll-box"></div>
+                        <p class="setup__text">Размытие</p>
+                        <div id="blur-radius" class="scroll-box"></div>
+                        <p class="setup__text">Растяжение</p>
+                        <div id="spread-radius" class="scroll-box"></div>
+                    </div>
+                </div>
+                <div class="col gen">
+                    <h2>Результат</h2>
+                    <div class="gen__inner">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <div class="css__box">
+                        <h3>css текст</h3>
+                        <input class="css__text" type="text" value="box-shadow:0px 0px 0px 0px #000">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/scroller.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
